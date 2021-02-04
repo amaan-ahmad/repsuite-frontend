@@ -16,6 +16,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center justify-center rounded-full bg-gray-50 text-sm w-8 h-8 mx-2">
             <img
+              alt="avatar"
               className="w-8 h-8 rounded-full"
               src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1036&q=80"
             />
