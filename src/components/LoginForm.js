@@ -1,4 +1,12 @@
+import { useHistory } from "react-router-dom";
 export default function LoginForm() {
+  const history = useHistory();
+  const handleSignIn = (e) => {
+    e.preventDefault();
+    console.log("signing in.");
+    history.push("/dashboard");
+  };
+
   return (
     <>
       <div className="flex flex-col items-center">
@@ -23,7 +31,10 @@ export default function LoginForm() {
             type="password"
             placeholder="your password"
           />
-          <button className="bg-pink-600 text-white font-semibold text-center focus:outline-none border-none rounded-lg p-2 mt-10 shadow-lg">
+          <button
+            onClick={handleSignIn}
+            className="bg-pink-600 text-white font-semibold text-center focus:outline-none border-none rounded-lg p-2 mt-10 shadow-lg"
+          >
             Sign in
           </button>
           <p className="mt-2 font-thin text-xs text-center">
