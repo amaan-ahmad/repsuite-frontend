@@ -25,7 +25,7 @@ export default function Dashboard() {
                   </label>
                 </div>
                 <div className="w-6 h-6 rounded-full">
-                  <img src={youtube} />
+                  <img src={youtube} alt="youtube" />
                 </div>
               </div>
               <div className="flex flex-row justify-between rounded-lg p-4 my-2 items-center bg-gray-100">
@@ -40,7 +40,7 @@ export default function Dashboard() {
                   </label>
                 </div>
                 <div className="w-6 h-6 rounded-full">
-                  <img src={facebook} />
+                  <img src={facebook} alt="facebook" />
                 </div>
               </div>
               <div className="flex flex-row justify-between rounded-lg p-4 my-2 items-center bg-gray-100">
@@ -54,7 +54,7 @@ export default function Dashboard() {
                   </label>
                 </div>
                 <div className="w-6 h-6 rounded-full">
-                  <img src={instagram} />
+                  <img src={instagram} alt="instagram" />
                 </div>
               </div>
             </div>
