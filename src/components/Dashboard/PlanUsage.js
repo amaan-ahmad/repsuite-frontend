@@ -9,7 +9,7 @@ export default function PlanUsage() {
             </p>
             <div class="flex items-center justify-between text-gray-400 text-sm">
               <p>Connected Accounts</p>
-              <p>3/8</p>
+              <p>4/8</p>
             </div>
             <div class="w-full h-2 bg-green-100 rounded-full mb-4">
               <div class="w-1/2 h-full text-center text-xs text-white bg-green-400 rounded-full"></div>
