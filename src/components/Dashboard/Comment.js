@@ -48,17 +48,17 @@ export default function Comment({
               />
               <div className="flex flex-row flex-1 justify-between my-2">
                 <div>
-                  <button className="inline-flex align-center focus:outline-none w-max border-0 bg-gray-100 text-blue-600 font-bold p-2 rounded mr-2">
+                  <button className="inline-flex align-center focus:outline-none w-max border-0 bg-gray-100 text-blue-600 font-bold p-2 rounded mr-2 mb-2">
                     Like
                     <Thumbup className="w-4 h-4 inline-block mx-2" />
                   </button>
 
-                  <button className="inline-flex align-center focus:outline-none w-max border-0 bg-gray-100 text-red-600 font-bold p-2  rounded mr-2">
+                  <button className="inline-flex align-center focus:outline-none w-max border-0 bg-gray-100 text-red-600 font-bold p-2  rounded mr-2 mb-2">
                     Ban
                     <Ban className="w-4 h-4 inline-block mx-2" />
                   </button>
                 </div>
-                <button className="inline-flex align-center focus:outline-none w-max border-0 bg-green-500 hover:bg-green-600 text-white font-bold p-2 rounded">
+                <button className=" self-start focus:outline-none w-max border-0 bg-green-500 hover:bg-green-600 text-white font-bold p-2 rounded">
                   Reply
                 </button>
               </div>
