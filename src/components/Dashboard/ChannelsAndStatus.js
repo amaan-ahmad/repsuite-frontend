@@ -20,7 +20,7 @@ export default function ChannelsAndStatus() {
             </label>
           </div>
           <div className="w-6 h-6 rounded-full">
-            <img src={youtube} alt="youtube" />
+            <img src={instagram} alt="youtube" />
           </div>
         </div>
         <div className="flex flex-row justify-between rounded-lg p-4 my-2 items-center bg-gray-100">
@@ -48,7 +48,7 @@ export default function ChannelsAndStatus() {
             </label>
           </div>
           <div className="w-6 h-6 rounded-full">
-            <img src={instagram} alt="instagram" />
+            <img src={youtube} alt="instagram" />
           </div>
         </div>
         <span className="text-gray-700 font-extrabold text-lg mt-4 lg:text-2xl md:text-xl ">
@@ -58,7 +58,7 @@ export default function ChannelsAndStatus() {
           <div className="flex flex-row items-center">
             <input
               type="checkbox"
-              defaultChecked={true}
+              defaultChecked={false}
               className="appearance-none mr-2 focus:outline-none checked:outline-none w-5 h-5 rounded-full text-green-500 checked:text-green-600 checked:border-transparent"
             />
             <label className="text-gray-600 text-sm font-medium">
@@ -82,7 +82,7 @@ export default function ChannelsAndStatus() {
           <div className="flex flex-row items-center">
             <input
               type="checkbox"
-              defaultChecked={true}
+              defaultChecked={false}
               className="appearance-none mr-2 focus:outline-none checked:outline-none w-5 h-5 rounded-full text-green-500 checked:text-green-600 checked:border-transparent"
             />
             <label className="text-gray-600 text-sm font-normal">
@@ -138,7 +138,7 @@ export default function ChannelsAndStatus() {
           <div className="flex flex-row items-center">
             <input
               type="checkbox"
-              defaultChecked={false}
+              defaultChecked={true}
               className="appearance-none mr-2 focus:outline-none checked:outline-none w-5 h-5 rounded-full text-green-500 checked:text-green-600 checked:border-transparent"
             />
             <label className="text-gray-600 text-sm font-normal">
