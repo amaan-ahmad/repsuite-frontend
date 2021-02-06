@@ -2,7 +2,7 @@ export default function PlanUsage() {
   return (
     <>
       <div class=" rounded-xl md:w-72 mt-4 p-4 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-100 relative overflow-hidden">
-        <a href="#" class="w-full h-full block">
+        <div class="w-full h-full block">
           <div class="w-full">
             <p class="text-gray-700 dark:text-white  text-2xl font-extrabold mb-4">
               Task Progress
@@ -23,7 +23,7 @@ export default function PlanUsage() {
               <div class="w-1/3 h-full text-center text-xs text-white bg-pink-400 rounded-full"></div>
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </>
   );
